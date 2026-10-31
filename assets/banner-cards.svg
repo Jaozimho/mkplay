@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#142d62"/>
+      <stop offset="1" stop-color="#090f23"/>
+    </linearGradient>
+    <linearGradient id="accent" x2="1" y2="1">
+      <stop stop-color="#218bff"/>
+      <stop offset="1" stop-color="#7b2fe0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" rx="20" fill="url(#bg)"/>
+  <circle cx="330" cy="82" r="95" fill="#7b2fe0" opacity=".24"/>
+  <circle cx="48" cy="380" r="125" fill="#218bff" opacity=".16"/>
+  <text x="28" y="46" fill="#ffb81c" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">JOGOS DO DIA</text>
+  <text x="28" y="100" fill="#fff" font-family="Arial,sans-serif" font-size="36" font-weight="800">DESTAQUES</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="22" y="135" width="356" height="91" rx="14" fill="#fff" opacity=".96"/>
+    <circle cx="70" cy="180" r="26" fill="url(#accent)"/>
+    <text x="70" y="187" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">A</text>
+    <text x="112" y="174" fill="#13244c" font-size="16" font-weight="700">TIME DA CASA</text>
+    <text x="112" y="200" fill="#64708c" font-size="13">20:30 · CANAL ESPORTES</text>
+    <rect x="22" y="239" width="356" height="91" rx="14" fill="#fff" opacity=".96"/>
+    <circle cx="70" cy="284" r="26" fill="#ffb81c"/>
+    <text x="70" y="291" text-anchor="middle" fill="#13244c" font-size="19" font-weight="700">B</text>
+    <text x="112" y="278" fill="#13244c" font-size="16" font-weight="700">TIME VISITANTE</text>
+    <text x="112" y="304" fill="#64708c" font-size="13">22:00 · TRANSMISSÃO AO VIVO</text>
+    <rect x="22" y="354" width="356" height="74" rx="14" fill="url(#accent)"/>
+    <text x="200" y="385" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" letter-spacing="2">SUA MARCA AQUI</text>
+    <text x="200" y="408" text-anchor="middle" fill="#fff" font-size="12">BANNERS PRONTOS PARA POSTAR</text>
+  </g>
+</svg>

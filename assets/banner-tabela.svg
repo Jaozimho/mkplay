@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#151a42"/>
+      <stop offset="1" stop-color="#081126"/>
+    </linearGradient>
+    <linearGradient id="bar">
+      <stop stop-color="#7b2fe0"/>
+      <stop offset="1" stop-color="#218bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" rx="20" fill="url(#bg)"/>
+  <circle cx="347" cy="85" r="118" fill="#218bff" opacity=".12"/>
+  <text x="28" y="52" fill="#ffb81c" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">AGENDA ESPORTIVA</text>
+  <text x="28" y="102" fill="#fff" font-family="Arial,sans-serif" font-size="34" font-weight="800">HOJE TEM JOGO</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="22" y="128" width="356" height="66" rx="11" fill="#fff" opacity=".96"/>
+    <rect x="22" y="128" width="8" height="66" rx="4" fill="url(#bar)"/>
+    <text x="45" y="157" fill="#7b2fe0" font-size="14" font-weight="800">18:00</text>
+    <text x="108" y="155" fill="#18264a" font-size="14" font-weight="700">TIME A  ×  TIME B</text>
+    <text x="108" y="177" fill="#65708b" font-size="11">CANAL ESPORTES</text>
+    <rect x="22" y="205" width="356" height="66" rx="11" fill="#fff" opacity=".96"/>
+    <rect x="22" y="205" width="8" height="66" rx="4" fill="#ffb81c"/>
+    <text x="45" y="234" fill="#7b2fe0" font-size="14" font-weight="800">20:30</text>
+    <text x="108" y="232" fill="#18264a" font-size="14" font-weight="700">TIME C  ×  TIME D</text>
+    <text x="108" y="254" fill="#65708b" font-size="11">TRANSMISSÃO AO VIVO</text>
+    <rect x="22" y="282" width="356" height="66" rx="11" fill="#fff" opacity=".96"/>
+    <rect x="22" y="282" width="8" height="66" rx="4" fill="#2fe02a"/>
+    <text x="45" y="311" fill="#7b2fe0" font-size="14" font-weight="800">22:00</text>
+    <text x="108" y="309" fill="#18264a" font-size="14" font-weight="700">TIME E  ×  TIME F</text>
+    <text x="108" y="331" fill="#65708b" font-size="11">CANAL ESPORTES</text>
+    <rect x="22" y="376" width="356" height="67" rx="12" fill="url(#bar)"/>
+    <text x="200" y="405" text-anchor="middle" fill="#fff" font-size="14" font-weight="800" letter-spacing="2">SUA LOGO E CONTATO</text>
+    <text x="200" y="426" text-anchor="middle" fill="#fff" font-size="11">DIVULGUE COM SUA IDENTIDADE</text>
+  </g>
+</svg>

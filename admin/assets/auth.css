@@ -1,0 +1,107 @@
+:root {
+    color-scheme: light;
+    --auth-navy: #101828;
+    --auth-blue: #3157d5;
+    --auth-muted: #667085;
+    --auth-line: #eaecf0;
+    --auth-canvas: #f7f8fa;
+}
+
+body.auth-page {
+    display: grid;
+    min-height: 100vh;
+    margin: 0 !important;
+    padding: 24px !important;
+    place-items: center;
+    background: var(--auth-canvas) !important;
+    color: #1d2939 !important;
+    font: 14px Inter, "Segoe UI", Arial, sans-serif !important;
+}
+
+body.auth-page .form,
+body.auth-page main.form {
+    width: min(100%, 430px);
+    max-width: 430px;
+    margin: 0 auto !important;
+    padding: 28px;
+    border: 1px solid var(--auth-line);
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(16, 24, 40, .06);
+}
+
+body.auth-page h1,
+body.auth-page h2 {
+    margin-top: 0;
+    color: var(--auth-navy);
+}
+
+body.auth-page p {
+    color: var(--auth-muted);
+    line-height: 1.55;
+}
+
+body.auth-page label {
+    display: block;
+    margin: 12px 0;
+    color: #475467;
+    font-size: 13px;
+}
+
+body.auth-page input:not([type="hidden"]) {
+    display: block;
+    width: 100%;
+    min-height: 42px;
+    margin-top: 6px;
+    padding: 10px 11px;
+    border: 1px solid #d0d5dd;
+    border-radius: 7px;
+    background: #fff;
+    font: inherit;
+}
+
+body.auth-page button {
+    width: 100%;
+    min-height: 42px;
+    margin-top: 7px;
+    border: 0;
+    border-radius: 7px;
+    background: var(--auth-blue);
+    color: #fff;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+body.auth-page .error,
+body.auth-page .message.error {
+    padding: 11px 12px;
+    border: 1px solid #fecdca;
+    border-radius: 7px;
+    background: #fef3f2;
+    color: #b42318;
+}
+
+body.auth-page .success,
+body.auth-page .message.success {
+    padding: 11px 12px;
+    border: 1px solid #abefc6;
+    border-radius: 7px;
+    background: #ecfdf3;
+    color: #067647;
+}
+
+body.auth-page a {
+    color: var(--auth-blue);
+}
+
+@media (max-width: 480px) {
+    body.auth-page {
+        padding: 14px !important;
+    }
+
+    body.auth-page .form,
+    body.auth-page main.form {
+        padding: 21px;
+    }
+}
